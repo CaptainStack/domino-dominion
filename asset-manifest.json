@@ -1,7 +1,7 @@
 {
   "main.css": "/domino-dominion/static/css/main.6070d345.chunk.css",
-  "main.js": "/domino-dominion/static/js/main.a4f3d0a3.chunk.js",
-  "main.js.map": "/domino-dominion/static/js/main.a4f3d0a3.chunk.js.map",
+  "main.js": "/domino-dominion/static/js/main.f4eb2a46.chunk.js",
+  "main.js.map": "/domino-dominion/static/js/main.f4eb2a46.chunk.js.map",
   "static/js/1.fa92c112.chunk.js": "/domino-dominion/static/js/1.fa92c112.chunk.js",
   "static/js/1.fa92c112.chunk.js.map": "/domino-dominion/static/js/1.fa92c112.chunk.js.map",
   "runtime~main.js": "/domino-dominion/static/js/runtime~main.aef3e7e3.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/domino-dominion/static/media/logo.5d5d9eef.svg",
   "static/css/main.6070d345.chunk.css.map": "/domino-dominion/static/css/main.6070d345.chunk.css.map",
   "index.html": "/domino-dominion/index.html",
-  "precache-manifest.8e1ded4eb4be3a8ce032545f03f5c783.js": "/domino-dominion/precache-manifest.8e1ded4eb4be3a8ce032545f03f5c783.js",
+  "precache-manifest.2ee37837399892cd14119bc52514f701.js": "/domino-dominion/precache-manifest.2ee37837399892cd14119bc52514f701.js",
   "service-worker.js": "/domino-dominion/service-worker.js"
 }
