@@ -1,14 +1,14 @@
 {
-  "main.css": "/domino-dominion/static/css/main.6070d345.chunk.css",
-  "main.js": "/domino-dominion/static/js/main.4556f133.chunk.js",
-  "main.js.map": "/domino-dominion/static/js/main.4556f133.chunk.js.map",
-  "static/js/1.fa92c112.chunk.js": "/domino-dominion/static/js/1.fa92c112.chunk.js",
-  "static/js/1.fa92c112.chunk.js.map": "/domino-dominion/static/js/1.fa92c112.chunk.js.map",
+  "main.css": "/domino-dominion/static/css/main.3187d0b7.chunk.css",
+  "main.js": "/domino-dominion/static/js/main.ddecfe1a.chunk.js",
+  "main.js.map": "/domino-dominion/static/js/main.ddecfe1a.chunk.js.map",
+  "static/js/1.6f5fefb7.chunk.js": "/domino-dominion/static/js/1.6f5fefb7.chunk.js",
+  "static/js/1.6f5fefb7.chunk.js.map": "/domino-dominion/static/js/1.6f5fefb7.chunk.js.map",
   "runtime~main.js": "/domino-dominion/static/js/runtime~main.aef3e7e3.js",
   "runtime~main.js.map": "/domino-dominion/static/js/runtime~main.aef3e7e3.js.map",
   "static/media/logo.svg": "/domino-dominion/static/media/logo.5d5d9eef.svg",
-  "static/css/main.6070d345.chunk.css.map": "/domino-dominion/static/css/main.6070d345.chunk.css.map",
+  "static/css/main.3187d0b7.chunk.css.map": "/domino-dominion/static/css/main.3187d0b7.chunk.css.map",
   "index.html": "/domino-dominion/index.html",
-  "precache-manifest.781e5c2a1152818964af1ad0653392cc.js": "/domino-dominion/precache-manifest.781e5c2a1152818964af1ad0653392cc.js",
+  "precache-manifest.0c1d2ae6a47539b867d2eaf2d5d454f2.js": "/domino-dominion/precache-manifest.0c1d2ae6a47539b867d2eaf2d5d454f2.js",
   "service-worker.js": "/domino-dominion/service-worker.js"
 }
