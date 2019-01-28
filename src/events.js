@@ -1,5 +1,5 @@
 import { store } from './index';
 
-export const capitalizeButtonClicked = event => {
-  store.dispatch({ type: 'CAPITALIZE_TITLE' });
+export const newGameButtonClicked = event => {
+  store.dispatch({ type: 'INITIALIZE_BOARD' });
 }

@@ -1,18 +1,18 @@
 import React from 'react';
-import logo from '../logo.svg';
 import '../styles/App.css';
-import { capitalizeButtonClicked } from '../events';
+import { newGameButtonClicked } from '../events';
+import { Board } from './Board';
 
 export const App = ({state}) => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <h1>
           { state.title }
-        </p>
-        <button onMouseDown={capitalizeButtonClicked}>
-          Capitalize
+        </h1>
+        <Board board={state.board}/>
+        <button onMouseDown={newGameButtonClicked}>
+          5x5
         </button>
       </header>
     </div>

@@ -1,10 +1,10 @@
 import { INITIAL_STATE } from './initial_state';
-import { capitalize_title } from './actions';
+import { initialize_board } from './actions';
 
 export default function reducer(state = INITIAL_STATE, action) {
   switch (action.type) {
-    case 'CAPITALIZE_TITLE':
-      return capitalize_title(state);
+    case 'INITIALIZE_BOARD':
+      return initialize_board(state);
     default:
       return state;
   }
