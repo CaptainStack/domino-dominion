@@ -2,6 +2,7 @@ let TileData = (id, row, column, content, status) => ({ id: id, row: row, column
 
 export const initialize_board = (state) => {
   let board = state.board;
+  board.tiles = [];
   let id = 0;
 
   for (let row = 0; row < state.board.dimensions.rows; row++) {
