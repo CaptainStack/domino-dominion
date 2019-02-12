@@ -3,7 +3,10 @@ import '../styles/Board.css';
 import { Tile } from './Tile';
 
 export const Board = ({board}) => {
-  let tiles = board.tiles.map(tile => <Tile tile = { tile} />);
+  let tiles = board.tiles.map(tile => 
+    <Tile tile = { tile } 
+          occupied={ board.occupied_tiles().includes(tile)}
+          possible={ board.possible_tiles().includes(tile)}/>);
 
   return (
     <div className="Board" style={{
