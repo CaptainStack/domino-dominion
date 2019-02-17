@@ -1,9 +1,20 @@
 
+export const TERRAIN = {
+  castle: 0,
+  empty: 1,
+  wheat: 2,
+  forest: 3,
+  lake: 4,
+  meadow: 5,
+  swamp: 6,
+  mine: 7,
+}
+
 let occupied_tiles =
   function() {
     let occupied_tiles = [];
     for (let tile of this.tiles) {
-      if (tile.content != null) {
+      if (tile.content !== TERRAIN.empty) {
         occupied_tiles.push(tile);
       }
     }
@@ -42,11 +53,13 @@ let possible_tiles =
     return possible_tiles;
   }
 
+
+
 export const INITIAL_STATE =
 {
   title: "Domino Dominion",
-  board: { 
-    dimensions: { rows: 9, columns: 9 }, 
+  board: {
+    dimensions: { rows: 9, columns: 9 },
     tiles: [],
     occupied_tiles: occupied_tiles,
     legal_tiles: [],
