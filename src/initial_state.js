@@ -53,7 +53,23 @@ let possible_tiles =
     return possible_tiles;
   }
 
+export const get_occupied_adjacent_tiles = (board, tile) =>  {
+  let adjacent_tiles = [];
+  for (let t of board.tiles) {
+    if ((Math.abs(t.row - tile.row) === 1 && t.column === tile.column) || (Math.abs(t.column - tile.column) === 1 && t.row === tile.row)) {
+      adjacent_tiles.push(t);
+    }
+  }
+  
+  let adjacent_occupied_tiles = [];
+  for (let t of adjacent_tiles) {
+    if (board.occupied_tiles().includes(t)) {
+      adjacent_occupied_tiles.push(t);
+    }
+  }
 
+  return adjacent_occupied_tiles;
+} 
 
 export const INITIAL_STATE =
 {
