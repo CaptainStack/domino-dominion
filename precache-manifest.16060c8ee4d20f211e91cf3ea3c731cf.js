@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fc5d4488155e4a835c80",
+    "revision": "79c2282db9c409937fd8",
     "url": "/domino-dominion/static/css/main.7cff58a5.chunk.css"
   },
   {
-    "revision": "fc5d4488155e4a835c80",
-    "url": "/domino-dominion/static/js/main.fc5d4488.chunk.js"
+    "revision": "79c2282db9c409937fd8",
+    "url": "/domino-dominion/static/js/main.79c2282d.chunk.js"
   },
   {
     "revision": "eb9014e29b0228b4c80b",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/domino-dominion/static/js/runtime~main.aef3e7e3.js"
   },
   {
-    "revision": "79870b23d3e171eb3327e8837d59684f",
+    "revision": "db599bc4f303e8a6f1e0fde6a77c2bf7",
     "url": "/domino-dominion/index.html"
   }
 ];
